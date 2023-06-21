@@ -1,0 +1,15 @@
+Connection successful
+('192.168.11.136', '255.255.255.0', '192.168.11.1', '192.168.11.1')
+Got a connection from ('192.168.11.132', 34892)
+Content = b'GET / HTTP/1.1\r\nHost: 192.168.11.136\r\nConnection: keep-alive\r\nDNT: 1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-CA,en;q=0.9\r\n\r\n'
+Got a connection from ('192.168.11.132', 34893)
+Content = b''
+Got a connection from ('192.168.11.132', 34939)
+Content = b'GET /?led=on HTTP/1.1\r\nHost: 192.168.11.136\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nReferer: http://192.168.11.136/\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-CA,en;q=0.9\r\n\r\n'
+LED ON
+Got a connection from ('192.168.11.132', 34950)
+Content = b'GET /?led=off HTTP/1.1\r\nHost: 192.168.11.136\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nReferer: http://192.168.11.136/?led=on\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-CA,en;q=0.9\r\n\r\n'
+LED OFF
+Got a connection from ('192.168.11.132', 34969)
+Content = b'GET /?led=on HTTP/1.1\r\nHost: 192.168.11.136\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nReferer: http://192.168.11.136/?led=off\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-CA,en;q=0.9\r\n\r\n'
+LED ON
